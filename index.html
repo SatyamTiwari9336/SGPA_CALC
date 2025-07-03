@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTU_SGPA_Calc</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="download.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1 style="color:rgb(227, 107, 9);">RTU SGPA Calculator by @Satyam</h1>
+        <h2>For what Semester you are calculating your SGPA?
+            <select id="dropbox">
+                <option value="1">Semester - 1</option>
+                <option value="2">Semester - 2</option>
+                <option value="3">Semester - 3</option>
+                <option value="4">Semester - 4</option>
+                <option value="5">Semester - 5</option>
+                <option value="6">Semester - 6</option>
+                <option value="7">Semester - 7</option>
+                <option value="8">Semester - 8</option>
+
+            </select>
+        </h2>
+        <div class="grades">
+            <div class="grades1">Grade in Engineering mathematics -1
+                <select id="dropbox1">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <section class="grades2">Grade in Physics
+                <select id="dropbox2">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades3">Grade in BEE(Basic Electrical)
+                <select id="dropbox3">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades4">Grade in CS
+                <select id="dropbox4">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades5">Grade in PPS(Programming)
+                <select id="dropbox5">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades6">Engineering Physics lab
+                <select id="dropbox6">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades7">Language Lab
+                <select id="dropbox7">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades8">Computer Programming Lab
+                <select id="dropbox8">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades9">BEE lab
+                <select id="dropbox9">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades10">Computer Aided Engineering Graphics
+                <select id="dropbox10">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+            <section class="grades11">SODECA
+                <select id="dropbox11">
+                    <option value="10">A++</option>
+                    <option value="9">A+</option>
+                    <option value="8.5">A</option>
+                    <option value="8">B+</option>
+                    <option value="7.5">B</B></option>
+                    <option value="7">C+</option>
+                    <option value="6.5">C</option>
+                    <option value="6">D+</option>
+                    <option value="5.5">D</option>
+                    <option value="5">E+</option>
+                    <option value="4">E</option>
+                    <option value="0">F</option>
+                </select>
+            </section>
+
+        </div>
+    </header>
+    <footer>
+        <h2> <button id="CGPA">MY SGPA</button> </h2>
+        <h3 class="result">Your SGPA is :</h3>
+    </footer>
+    <script src="RTU.js"> </script>
+</body>
+
+</html>
