@@ -1,6 +1,7 @@
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: rgb(180, 174, 174);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #2d283e;
 }
 
 h1 {
@@ -26,17 +27,21 @@ h1 {
 .grades11,
 .grades12 {
   font-size: 30px;
+  font-weight: 500;
+
   /* margin-top: 10px; */
 }
 #dropbox {
   background-color: black;
   padding: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 25px;
   color: aliceblue;
   border-radius: 10px;
   display: flex;
-  margin-left: 42%;
+  border: 2px solid yellow;
+  margin-left: 30vw;
   margin-top: 10px;
 }
 h2 {
@@ -54,30 +59,31 @@ h2 {
 #dropbox10,
 #dropbox11,
 #dropbox12 {
-  font-size: 15px;
-  /* margin-left: 200px;
-  margin-top: 20px;
-  padding: 3px; */
+  font-size: 22px;
+  padding: 3px;
+  border: 2px solid gray;
   display: flex;
-  background-color: rgb(232, 236, 166);
-  border: 1px solid black;
+  background-color: black;
+  color: aliceblue;
 }
 
 #CGPA {
   background-color: black;
   color: aliceblue;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: x-large;
-  border: 2px solid brown;
+  border: 2px solid yellow;
   border-radius: 20px;
   padding: 20px;
   cursor: pointer;
 }
 #CGPA:hover {
-  box-shadow: 10px 10px 5px 5px lightcoral;
+  box-shadow: 10px 10px 5px 5px rgb(202, 228, 33);
 }
 .result {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
   text-align: center;
   border: 5px solid rgb(0, 0, 0);
