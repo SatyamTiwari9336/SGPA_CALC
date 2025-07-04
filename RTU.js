@@ -1732,7 +1732,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown6.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(bda) * 3 +
         Number(bdal) * 2 +
         Number(stvl) * 1 +
@@ -1740,6 +1740,6 @@ document.getElementById("CGPA").onclick = function () {
         Number(dm) * 3 +
         Number(sodeca) * 0.5) /
       16.5
-    }`;
+    ).toFixed(3)}`;
   }
 };
