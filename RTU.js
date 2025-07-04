@@ -459,7 +459,7 @@ document.getElementById("dropbox").onchange = function () {
                     <option value="0">F</option>
                 </select>
             </section>
-        </div><section class="grades7">DSA LAB
+        <section class="grades7">DSA LAB
                     <select id="dropbox7">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -475,7 +475,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades8">OOPS lab
+                <section class="grades8">Object Oriented Programing lab
                     <select id="dropbox8">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -507,7 +507,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades10">DE LAB
+                <section class="grades10">Digital Electronics LAB
                     <select id="dropbox10">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -523,7 +523,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades11">ITS
+                <section class="grades11">Industrial training
                     <select id="dropbox11">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -554,7 +554,8 @@ document.getElementById("dropbox").onchange = function () {
                     <option value="4">E</option>
                     <option value="0">F</option>
                 </select>
-            </section>`;
+            </section>
+            </div>`;
     document.querySelector(".grades").innerHTML = htmlContent;
   } else if (selectedValue === "4") {
     const htmlContent = `<div class="grades">
@@ -654,7 +655,7 @@ document.getElementById("dropbox").onchange = function () {
                     <option value="0">F</option>
                 </select>
             </section>
-        </div><section class="grades7">MPI LAB
+        <section class="grades7">MicroProcessor interfaces LAB
                     <select id="dropbox7">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -670,7 +671,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades8">DBMS lab
+                <section class="grades8">DataBase Management lab
                     <select id="dropbox8">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -686,7 +687,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades9">NP lab
+                <section class="grades9">Network Programming lab
                     <select id="dropbox9">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -702,7 +703,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades10">LINUX LAB
+                <section class="grades10">LINUX shell programming LAB
                     <select id="dropbox10">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -749,11 +750,12 @@ document.getElementById("dropbox").onchange = function () {
                     <option value="4">E</option>
                     <option value="0">F</option>
                 </select>
-            </section>`;
+            </section>
+            </div>`;
     document.querySelector(".grades").innerHTML = htmlContent;
   } else if (selectedValue === "5") {
     const htmlContent = `<div class="grades">
-            <div class="grades1">Grade in Information Theory and Coding
+            <div class="grades1">Grade in ITC
                 <select id="dropbox1">
                     <option value="10">A++</option>
                     <option value="9">A+</option>
@@ -849,7 +851,7 @@ document.getElementById("dropbox").onchange = function () {
                     <option value="0">F</option>
                 </select>
             </section>
-            <section class="grades7">CGM LAB
+            <section class="grades7">Grade in CGM LAB
                     <select id="dropbox7">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -865,7 +867,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades8">CD lab
+                <section class="grades8">Grade in CD lab
                     <select id="dropbox8">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -881,7 +883,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades9">AOA lab
+                <section class="grades9"> Grade in AOA lab
                     <select id="dropbox9">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -913,7 +915,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades11">ITS
+                <section class="grades11">Industrial Training
                     <select id="dropbox11">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -1061,7 +1063,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades8">MAD lab
+                <section class="grades8">Grade in MAD lab
                     <select id="dropbox8">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -1077,7 +1079,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades9">Python lab
+                <section class="grades9">Grade in Python lab
                     <select id="dropbox9">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -1093,7 +1095,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades10">DIP LAB
+                <section class="grades10">Grade in DIP LAB
                     <select id="dropbox10">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -1109,7 +1111,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades11">ML Lab
+                <section class="grades11"> Grade in ML Lab
                     <select id="dropbox11">
                         <option value="10">A++</option>
                         <option value="9">A+</option>
@@ -1125,7 +1127,7 @@ document.getElementById("dropbox").onchange = function () {
                         <option value="0">F</option>
                     </select>
                 </section>
-                <section class="grades12">SODECA
+                <section class="grades12"> Grade in SODECA
                 <select id="dropbox12">
                     <option value="10">A++</option>
                     <option value="9">A+</option>
@@ -1402,7 +1404,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown11.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(em1) * 4 +
         Number(ph) * 4 +
         Number(hv) * 2 +
@@ -1415,7 +1417,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(sodeca) * 0.5 +
         Number(ll) * 1) /
       20.5
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "2") {
     let dropdown = document.getElementById("dropbox1");
     let em2 = dropdown.value;
@@ -1451,7 +1453,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown11.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(em2) * 4 +
         Number(ch) * 4 +
         Number(cs) * 2 +
@@ -1464,7 +1466,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(sodeca) * 0.5 +
         Number(cil) * 1) /
       20.5
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "3") {
     let dropdown = document.getElementById("dropbox1");
     let aem = dropdown.value;
@@ -1503,7 +1505,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(aem) * 3 +
         Number(mefa) * 2 +
         Number(de) * 3 +
@@ -1517,7 +1519,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(its) * 1 +
         Number(del) * 1.5) /
       24.5
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "4") {
     let dropdown = document.getElementById("dropbox1");
     let dms = dropdown.value;
@@ -1556,7 +1558,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(dms) * 3 +
         Number(tc) * 2 +
         Number(mpi) * 3 +
@@ -1570,7 +1572,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(lnl) * 1 +
         Number(jl) * 1) /
       23.5
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "5") {
     let dropdown = document.getElementById("dropbox1");
     let itc = dropdown.value;
@@ -1609,7 +1611,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(itc) * 2 +
         Number(cd) * 3 +
         Number(os) * 3 +
@@ -1623,7 +1625,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(ajl) * 1 +
         Number(its) * 2.5) /
       23
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "6") {
     let dropdown = document.getElementById("dropbox1");
     let cao = dropdown.value;
@@ -1662,7 +1664,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(dip) * 2 +
         Number(ml) * 3 +
         Number(cao) * 3 +
@@ -1676,7 +1678,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(pyl) * 1.5 +
         Number(madl) * 1.5) /
       23.5
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "7") {
     let dropdown = document.getElementById("dropbox1");
     let eedm = dropdown.value;
@@ -1700,7 +1702,7 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown7.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${
+    document.querySelector(".result").textContent = `Your SGPA is :${(
       (Number(eedm) * 3 +
         Number(iot) * 3 +
         Number(iotl) * 2 +
@@ -1709,7 +1711,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(seminar) * 2 +
         Number(sodeca) * 0.5) /
       15.0
-    }`;
+    ).toFixed(3)}`;
   } else if (maindropdown === "8") {
     let dropdown = document.getElementById("dropbox1");
     let bda = dropdown.value;
