@@ -1419,7 +1419,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(sodeca) * 0.5 +
         Number(ll) * 1) /
       20.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "2") {
     let dropdown = document.getElementById("dropbox1");
     let em2 = dropdown.value;
@@ -1470,7 +1470,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(sodeca) * 0.5 +
         Number(cil) * 1) /
       20.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "3") {
     let dropdown = document.getElementById("dropbox1");
     let aem = dropdown.value;
@@ -1525,7 +1525,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(its) * 1 +
         Number(del) * 1.5) /
       24.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "4") {
     let dropdown = document.getElementById("dropbox1");
     let dms = dropdown.value;
@@ -1580,7 +1580,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(lnl) * 1 +
         Number(jl) * 1) /
       23.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "5") {
     let dropdown = document.getElementById("dropbox1");
     let itc = dropdown.value;
@@ -1635,7 +1635,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(ajl) * 1 +
         Number(its) * 2.5) /
       23
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "6") {
     let dropdown = document.getElementById("dropbox1");
     let cao = dropdown.value;
@@ -1690,7 +1690,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(pyl) * 1.5 +
         Number(madl) * 1.5) /
       23.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "7") {
     let dropdown = document.getElementById("dropbox1");
     let eedm = dropdown.value;
@@ -1725,7 +1725,7 @@ document.getElementById("CGPA").onclick = function () {
         Number(seminar) * 2 +
         Number(sodeca) * 0.5) /
       15.0
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   } else if (maindropdown === "8") {
     let dropdown = document.getElementById("dropbox1");
     let bda = dropdown.value;
@@ -1756,6 +1756,6 @@ document.getElementById("CGPA").onclick = function () {
         Number(dm) * 3 +
         Number(sodeca) * 0.5) /
       16.5
-    ).toFixed(3)}`;
+    ).toFixed(2)}`;
   }
 };
