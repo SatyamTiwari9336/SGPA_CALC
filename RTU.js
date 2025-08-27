@@ -1619,7 +1619,9 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${(
+    document.querySelector(
+      ".result"
+    ).textContent = `Your SGPA in ${maindropdown} Sem is :${(
       (Number(itc) * 2 +
         Number(cd) * 3 +
         Number(os) * 3 +
@@ -1672,7 +1674,9 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown12.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${(
+    document.querySelector(
+      ".result"
+    ).textContent = `Your SGPA in ${maindropdown} Sem is :${(
       (Number(dip) * 2 +
         Number(ml) * 3 +
         Number(cao) * 3 +
@@ -1710,7 +1714,9 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown7.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${(
+    document.querySelector(
+      ".result"
+    ).textContent = `Your SGPA in ${maindropdown} Sem is :${(
       (Number(eedm) * 3 +
         Number(iot) * 3 +
         Number(iotl) * 2 +
@@ -1740,7 +1746,9 @@ document.getElementById("CGPA").onclick = function () {
     let sodeca = dropdown6.value;
     console.log(sodeca);
 
-    document.querySelector(".result").textContent = `Your SGPA is :${(
+    document.querySelector(
+      ".result"
+    ).textContent = `Your SGPA in ${maindropdown} Sem is :${(
       (Number(bda) * 3 +
         Number(bdal) * 2 +
         Number(stvl) * 1 +
