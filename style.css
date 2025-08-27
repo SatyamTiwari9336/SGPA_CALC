@@ -29,10 +29,8 @@ h1 {
 .grades12 {
   font-size: 30px;
   font-weight: 500;
-  /* color: rgb(222, 204, 42); */
-  color: #dde8e3;
 
-  /* margin-top: 10px; */
+  color: #dde8e3;
 }
 #dropbox {
   background-color: rgb(23, 23, 23);
@@ -43,9 +41,9 @@ h1 {
   font-weight: bold;
   color: RGB(162, 162, 162);
   border-radius: 10px;
-  /* display: flex; */
+
   border: 2px solid #006239;
-  /* margin-left: 30vw; */
+
   margin-top: 10px;
   text-align: center;
 }
